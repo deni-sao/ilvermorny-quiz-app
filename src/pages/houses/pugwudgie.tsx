@@ -5,10 +5,7 @@ import Link from 'next/link';
 export default function House() {
   const { data: session, status } = useSession();
   return (
-    <section
-      className="py-20 xl:pt-24 xl:pb-28 bg-white"
-      // style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;"
-    >
+    <section className="py-20 xl:pt-24 xl:pb-28 bg-white">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4 mb-14">

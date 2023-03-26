@@ -1,11 +1,7 @@
-// import { returnFeed } from '@services/authorization';
 import fetch from 'isomorphic-unfetch';
-// import { signIn } from 'next-auth/react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useRef } from 'react';
-import { useForm } from 'react-hook-form';
 
 export default function SignIn() {
   const router = useRouter();

@@ -7,7 +7,6 @@ export default function House() {
   return (
     <section
       className="py-20 xl:pt-24 xl:pb-28 bg-white"
-      // style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;"
     >
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap -mx-4">

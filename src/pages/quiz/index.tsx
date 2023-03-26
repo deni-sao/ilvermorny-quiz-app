@@ -3,10 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
-// import Login from './login';
-
-// import { Error, H1, Span } from './styles';
-
 export default function Header() {
   const [err, setErr] = useState('');
   const { data: session, status } = useSession();
@@ -48,7 +44,7 @@ export default function Header() {
       hideForm.className = 'hidden';
     }
 
-    // Send the form data to our forms API on Vercel and get a response.
+    // Send the form data to our forms API and get a response.
     const response = await fetch(endpoint, options);
 
     // Get the response data from server as JSON.
@@ -93,20 +89,7 @@ export default function Header() {
           wampus.className = 'visible';
         }
         break;
-      // default:
-      //  = 'visible';
-      //   break;
     }
-
-    // const submitContact = async (event) => {
-    //   const data = new FormData(event.target.currentValue);
-    //   event.preventDefault();
-    //   alert(`${event.target.currentValue}`);
-    //   // const name = event.target.form.foo.value;
-    //   const res = await fetch(`/api/quiz?foo=${data}`);
-    //   const result = await res.json();
-    //   alert(`Hi ${data} your age is most likely: ${result}`);
-    // };
   };
   return (
     <section

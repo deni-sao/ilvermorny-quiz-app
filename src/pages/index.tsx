@@ -12,7 +12,7 @@ export default function Dashboard() {
     <>
       <section
         className="py-28 bg-black bg-no-repeat bg-center bg-cover bg-fixed overflow-hidden"
-        // style="background-image: url('flaro-assets/images/blog/bg.jpeg');"
+
         style={{
           backgroundImage: `url("/other_ilvermorny.jpg")`,
         }}
@@ -67,17 +67,10 @@ export default function Dashboard() {
                     height="300"
                   />
                 </Link>
-                {/* <div className="absolute bottom-0 left-0 w-full p-2.5">
-                  <div className="p-5 w-full bg-white rounded-md">
-                    <h2 className="font-heading font-bold text-lg text-gray-900">
-                      Cody Fisher
-                    </h2>
-                    <p className="text-sm text-gray-600">Co-Founder, CEO</p>
-                  </div>
-                </div> */}
+
               </div>
               <br />
-              {/* <p className="text-white">Pugwudgie</p> */}
+
             </div>
 
             <div className="w-full md:w-1/2 xl:w-1/4 p-3">
@@ -91,14 +84,7 @@ export default function Dashboard() {
                     height="300"
                   />
                 </Link>
-                {/* <div className="absolute bottom-0 left-0 w-full p-2.5">
-                  <div className="p-5 w-full bg-white rounded-md">
-                    <h2 className="font-heading font-bold text-lg text-gray-900">
-                      Eleanor Pena
-                    </h2>
-                    <p className="text-sm text-gray-600">Co-Founder, CTO</p>
-                  </div>
-                </div> */}
+
               </div>
             </div>
             <div className="w-full md:w-1/2 xl:w-1/4 p-3">
@@ -112,16 +98,7 @@ export default function Dashboard() {
                     height="300"
                   />
                 </Link>
-                {/* <div className="absolute bottom-0 left-0 w-full p-2.5">
-                  <div className="p-5 w-full bg-white rounded-md">
-                    <h2 className="font-heading font-bold text-lg text-gray-900">
-                      Devon Lane
-                    </h2>
-                    <p className="text-sm text-gray-600">
-                      Chief Marketing Officer
-                    </p>
-                  </div>
-                </div> */}
+
               </div>
             </div>
             <div className="w-full md:w-1/2 xl:w-1/4 p-3">
@@ -136,16 +113,7 @@ export default function Dashboard() {
                   />
                 </Link>
 
-                {/* <div className="absolute bottom-0 left-0 w-full p-2.5">
-                  <div className="p-5 w-full bg-white rounded-md">
-                    <h2 className="font-heading font-bold text-lg text-gray-900">
-                      Robert Fox
-                    </h2>
-                    <p className="text-sm text-gray-600">
-                      Senior Software Developer
-                    </p>
-                  </div>
-                </div> */}
+
               </div>
             </div>
           </div>

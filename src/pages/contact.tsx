@@ -30,7 +30,6 @@ export default function Contact() {
           <div className="w-full p-2.5">
             <textarea
               className="w-full h-40 px-5 py-4 text-gray-500 text-base bg-transparent border border-gray-800 outline-none focus:ring-4 focus:ring-yellow-500 placeholder-gray-500 resize-none rounded"
-              // type="text"
               placeholder="Write message"
             />
           </div>

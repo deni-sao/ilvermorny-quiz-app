@@ -22,14 +22,11 @@ export default function MyApp({
           rel="stylesheet"
         />
       </Head>
-      {/* <Layout>
-        <Component {...pageProps} />
-      </Layout> */}
+
       <SessionProvider session={session}>
         <Layout>
           <Component {...pageProps} />
         </Layout>
-        {/* <Reset /> */}
         <Component {...pageProps} />
         <Footer />
       </SessionProvider>

@@ -25,12 +25,6 @@ export const authOptions = {
       },
       async authorize(credentials, req) {
         console.log(credentials);
-        // You need to provide your own logic here that takes the credentials
-        // submitted and returns either a object representing a user or value
-        // that is false/null if the credentials are invalid.
-        // e.g. return { id: 1, name: 'J Smith', email: 'jsmith@example.com' }
-        // You can also use the `req` object to obtain additional parameters
-        // (i.e., the request IP address)
         const AUTH_URL = `${process.env.BASE_URL}/api/user/auth`;
         const res = await fetch(AUTH_URL, {
           method: 'post',
@@ -41,8 +35,6 @@ export const authOptions = {
           headers: { 'Content-Type': 'application/json' },
         });
         const user = await res.json();
-        // console.log(res);
-        // console.log(user);
 
         // If no error and we have user data, return it
         if (res.ok && user) {
