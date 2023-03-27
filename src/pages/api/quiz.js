@@ -50,15 +50,5 @@ export default async function handler(req, res) {
     res.status(200).json({
       data: `${house}`,
     });
-
-    // const body2 = JSON.stringify(req.body);
-    // res.status(200).json({ body2 });
-    // res.status(200).json({ name: 'John Doe' });
-    // res.setHeader('Content-Type', 'application/json');
-    // res.json({ query: req.query });
   }
-  // else {
-  //   // res.status(405).send({ message: 'Only POST requests allowed' });
-  //   // return;
-  // }
 }

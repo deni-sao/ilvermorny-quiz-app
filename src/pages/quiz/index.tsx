@@ -50,17 +50,6 @@ export default function Header() {
     // Get the response data from server as JSON.
     // If server returns the name submitted, that means the form works.
     const result = await response.json();
-    // alert(`Is this your full name: ${result.data}`);
-
-    // const house = document.getElementById('result');
-
-    // if (house) {
-    //   house.innerHTML = `<div>
-    //   <h1>This is the result: ${result.data}. <h1>
-    //   </div>`;
-    // }
-
-    // const houseID = document.getElementById('hornedserpent');
 
     let houseID = result.data;
 
