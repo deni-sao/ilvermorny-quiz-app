@@ -1,10 +1,6 @@
-import { HouseSharp } from '@material-ui/icons';
-// import Script from 'next/script';
-import { signIn, useSession } from 'next-auth/react';
+import { useSession } from 'next-auth/react';
 import Image from 'next/image';
 import Link from 'next/link';
-
-// import Login from './login';
 
 export default function Dashboard() {
   const { data: session, status } = useSession();
@@ -12,7 +8,6 @@ export default function Dashboard() {
     <>
       <section
         className="py-28 bg-black bg-no-repeat bg-center bg-cover bg-fixed overflow-hidden"
-
         style={{
           backgroundImage: `url("/other_ilvermorny.jpg")`,
         }}
@@ -67,10 +62,8 @@ export default function Dashboard() {
                     height="300"
                   />
                 </Link>
-
               </div>
               <br />
-
             </div>
 
             <div className="w-full md:w-1/2 xl:w-1/4 p-3">
@@ -84,7 +77,6 @@ export default function Dashboard() {
                     height="300"
                   />
                 </Link>
-
               </div>
             </div>
             <div className="w-full md:w-1/2 xl:w-1/4 p-3">
@@ -98,7 +90,6 @@ export default function Dashboard() {
                     height="300"
                   />
                 </Link>
-
               </div>
             </div>
             <div className="w-full md:w-1/2 xl:w-1/4 p-3">
@@ -112,8 +103,6 @@ export default function Dashboard() {
                     height="300"
                   />
                 </Link>
-
-
               </div>
             </div>
           </div>

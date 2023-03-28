@@ -503,7 +503,6 @@ export default function Header() {
               <div className="flex flex-wrap lg:items-center -m-8 lg:-m-14">
                 <div className="w-full md:w-1/2 p-8 lg:p-14">
                   <div className="relative w-96 h-96 mx-auto lg:ml-auto lg:mr-0  rounded-4xl">
-                    {/* <Image className="transform hover:scale-105 transition ease-in-out duration-1000" src="flaro-assets/images/team/bg3.png" alt=""/> */}
                     <Link href="/houses/wampus">
                       <Image
                         className="mx-auto transform hover:scale-105 transition ease-in-out duration-1000 cursor-pointer"
