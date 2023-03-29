@@ -9,7 +9,7 @@ export default function Contact() {
             Owl post is great! However ...
           </h2>
           <p className="text-gray-400 text-lg">
-            If you happen to be one of the students that not have an owl at
+            If you happen to be one of the students that do not have an owl at
             their disposal, feel free to send us a digital message by filling
             out the form provided below.
           </p>
