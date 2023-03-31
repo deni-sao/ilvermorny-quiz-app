@@ -18,10 +18,10 @@ export default async (req, res) => {
 
   if (user) {
     let dbPassword = user.pwdId;
-    console.log('***#*@**@#*@*@*#*@#*#@*@*');
-    console.log('***#*@**@#*@*@*#*@#*#@*@*');
+    // console.log('***#*@**@#*@*@*#*@#*#@*@*');
+    // console.log('***#*@**@#*@*@*#*@#*#@*@*');
 
-    console.log(dbPassword);
+    // console.log(dbPassword);
 
     let isSamePass = await bcrypt
       .compare(password, dbPassword)
@@ -29,7 +29,7 @@ export default async (req, res) => {
         return result;
       });
 
-    console.log(isSamePass);
+    // console.log(isSamePass);
 
     if (isSamePass) {
       res.json(user);

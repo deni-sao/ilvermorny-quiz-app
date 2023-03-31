@@ -24,7 +24,7 @@ export const authOptions = {
         password: { label: 'password', type: 'password' },
       },
       async authorize(credentials, req) {
-        console.log(credentials);
+        // console.log(credentials);
         const AUTH_URL = `${process.env.BASE_URL}/api/user/auth`;
         const res = await fetch(AUTH_URL, {
           method: 'post',

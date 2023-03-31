@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   // creates connection from app to db
   const prisma = new PrismaClient();
 
-  //if a post req is sent to the api
+  //if a POST request is sent to the api
   if (req.method === 'POST') {
     const body = req.body;
 
@@ -33,7 +33,7 @@ export default async function handler(req, res) {
       store[num] ? (store[num] += 1) : (store[num] = 1),
     );
 
-    //assign result to house
+    //assigns result to house
 
     let house = Object.keys(store).sort((a, b) => store[b] - store[a])[0];
 
@@ -46,7 +46,7 @@ export default async function handler(req, res) {
       },
     });
 
-    // send response to POST req back
+    // sends response to POST req back
     res.status(200).json({
       data: `${house}`,
     });
